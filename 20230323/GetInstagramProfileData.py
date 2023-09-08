@@ -47,6 +47,10 @@ if controlSeguidos == 'S':
         if not followee.username in seguidores:
             print(followee.username)
     print('.......................................................................................................................')
+print('.......................................................................................................................')
+print("Seguidores: "+str(len(seguidores)))
+print("Seguidos: "+str(len(seguidos)))
+print('.......................................................................................................................')
 
 controlSeguidores = input("Escriba 'S' para imprimir Seguidores que no sigue: ")
 if controlSeguidores == 'S':
